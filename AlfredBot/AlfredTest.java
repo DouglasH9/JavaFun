@@ -1,9 +1,11 @@
 package AlfredBot;
 
 public class AlfredTest {
-    public static void main(String[] args){
-        AlfredQuotes alfredBot = new AlfredQuotes();
 
+    public static void main(String[] args){
+        
+        AlfredQuotes alfredBot = new AlfredQuotes();
+        
         String testGreeting = alfredBot.basicGreeting();
         String testGuestGreeting = alfredBot.guestGreeting("Beth Kane", "evening");
         String testDateAnnouncement = alfredBot.dateAnnouncement();
